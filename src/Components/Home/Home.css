@@ -1,0 +1,19 @@
+.home-background{
+    background-image: url('https://i.ibb.co/k4fM8tZ/home-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-title-style{
+    font-family:'Philosopher',sans-serif;
+    font-size:100px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.button-design-style{
+    background: linear-gradient(to right, #0decc7,#09a9e9);
+    color: white !important;
+    padding:11px 25px !important;
+    border-radius: 24px 0px;
+    margin: 0 11px;
+}
