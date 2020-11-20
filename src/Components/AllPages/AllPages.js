@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import GetSearchDesign from "../GetSearchDesign/GetSearchDesign";
 import Home from "../Home/Home";
 import Project from "../Project/Project";
+import Team from "../Team/Team";
 const AllPages = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const AllPages = () => {
       <About />
       <Project />
       <Achievements />
+      <Team />
       <GetSearchDesign />
       <Footer />
     </div>
