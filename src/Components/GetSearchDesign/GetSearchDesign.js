@@ -1,35 +1,22 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import ReactSearchBox from "react-search-box";
+import { Button, Container, InputGroup } from "react-bootstrap";
 
 const GetSearchDesign = () => {
   return (
-    <Container className="mt-5 mb-5">
-      <Row>
-        <Col
-          xs={8}
-          className="m-auto d-flex justify-content-center border border-primary"
-          xl={6}
-          md="8"
-        >
-          <Row className="m-auto">
-            {/* <h1>Bismillah</h1> */}
-            <ReactSearchBox
-              placeholder="Enter your email address."
-              // value="Doe"
-              // data={this.data}
-              // callback={record => console.log(record)}
-            />
-          </Row>
-          {/* <Row>
-                        <SearchField
-                            placeholder="Search..."
-                            searchText=" search "
-                            classNames="test-class"
-                        />
-                    </Row> */}
-        </Col>
-      </Row>
+    <Container>
+      <h1>Get your design right, right now</h1>
+      <p>be the first know our latest offers and updates!</p>
+
+      <div className="mx-auto">
+        <InputGroup>
+          <input
+            placeholder="Enter your email address"
+            className="form-control"
+            className="w-50"
+          />
+          <Button>Get Started</Button>
+        </InputGroup>
+      </div>
     </Container>
   );
 };
