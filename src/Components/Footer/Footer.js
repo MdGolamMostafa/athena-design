@@ -65,11 +65,11 @@ const Footer = () => {
 
 export default Footer;
 
-{
-  /* <ul style={{listStyle:'none'}} className="row ">
-                            <li className="ml-5 mr-5"><img src={'https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png'} alt=""/></li>
-                            <li className="mr-5"><img src={"https://i.ibb.co/QMy874b/linkedin-2-2x.png"} alt=""/></li>
-                            <li className="mr-5"><img src={"https://i.ibb.co/chjZL5J/twitter-4-2x.png"} alt=""/></li>
-                            <li className="mr-2"><img src={"https://i.ibb.co/xqJzZhr/dribbble-1-2x.png"} alt=""/></li>
-                        </ul> */
-}
+// {
+//   /* <ul style={{listStyle:'none'}} className="row ">
+//                             <li className="ml-5 mr-5"><img src={'https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png'} alt=""/></li>
+//                             <li className="mr-5"><img src={"https://i.ibb.co/QMy874b/linkedin-2-2x.png"} alt=""/></li>
+//                             <li className="mr-5"><img src={"https://i.ibb.co/chjZL5J/twitter-4-2x.png"} alt=""/></li>
+//                             <li className="mr-2"><img src={"https://i.ibb.co/xqJzZhr/dribbble-1-2x.png"} alt=""/></li>
+//                         </ul> */
+// }
