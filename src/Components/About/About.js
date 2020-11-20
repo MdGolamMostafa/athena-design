@@ -1,17 +1,17 @@
 import React from "react";
-import { Card, CardDeck } from "react-bootstrap";
+import { Card, CardDeck, Container } from "react-bootstrap";
 import "./About.css";
 
 const About = () => {
   return (
-    <div>
+    <Container className="my-5">
       <h1>What we do</h1>
-      <p>
+      <pc>
         Our main focus is to make the User Experience very simple and easy.
         Simplicity is our Strength
-      </p>
+      </pc>
 
-      <CardDeck>
+      <CardDeck className="mt-5">
         <Card>
           <Card.Img variant="top" src="/images/Group 65@2x.png" />
           <Card.Body>
@@ -53,7 +53,7 @@ const About = () => {
           </Card.Body>
         </Card>
       </CardDeck>
-    </div>
+    </Container>
   );
 };
 
