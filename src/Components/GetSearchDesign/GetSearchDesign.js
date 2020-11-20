@@ -3,7 +3,7 @@ import { Button, Container, InputGroup } from "react-bootstrap";
 
 const GetSearchDesign = () => {
   return (
-    <Container>
+    <Container id="contact">
       <h1>Get your design right, right now</h1>
       <p>be the first know our latest offers and updates!</p>
 
