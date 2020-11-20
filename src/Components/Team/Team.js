@@ -4,17 +4,17 @@ import { Button, Card, CardDeck, Container } from "react-bootstrap";
 const Team = () => {
   return (
     <Container>
-      <h1>Choose Your Dedicated Team</h1>
+      <h1 className="text-center">Choose Your Dedicated Team</h1>
 
       <CardDeck>
-        <Card>
+        <Card className="text-center">
           <Card.Body>
             <Card.Title>
               <h3>$199</h3>
               <p>For Basic</p>
             </Card.Title>
             <Card.Text>
-              <ul>
+              <ul className="text-center">
                 <li>Home Page</li>
                 <li>No Inner Page</li>
                 <li>Asset file</li>

@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <Container>
+    <Container className="my-5">
       <Row className="d-flex justify-content-center mt-4">
         <Col xs={8} md={4}>
           <img

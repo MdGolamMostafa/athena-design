@@ -4,15 +4,15 @@ import "../Home/Home.css";
 
 const Project = () => {
   return (
-    <Container>
+    <Container className="my-5">
       <Row>
         <Col md={6} xs={12}>
           <Image
             src="/images/20 [Converted]@2x.png"
-            style={{ width: "100%" }}
+            style={{ width: "100%", verticalAlign: "middle" }}
           />
         </Col>
-        <Col md={6} xs={12} style={{ marginTop: "150px" }}>
+        <Col md={6} xs={12} className="mt-5">
           <h1>Stay Running & Project</h1>
           <p>
             It is a long established fact that a reader will be distracted by
