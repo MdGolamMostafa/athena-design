@@ -3,7 +3,7 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 
 const Achievements = () => {
   return (
-    <Container className="my-5">
+    <Container className="my-5" id="service">
       <Row>
         <Col md={6} xs={12}>
           <h1>Our Achievements</h1>
@@ -17,7 +17,7 @@ const Achievements = () => {
         <Col md={6} xs={12}>
           <Row>
             <Col>
-              <Row className="bg-info">
+              <Row className="bg-info button-design-style">
                 <Col>
                   <Image src="/images/happy@2x.png" />
                 </Col>

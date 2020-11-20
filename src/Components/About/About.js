@@ -4,7 +4,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <Container className="my-5">
+    <Container className="my-5" id="about">
       <h1>What we do</h1>
       <pc>
         Our main focus is to make the User Experience very simple and easy.

@@ -3,7 +3,7 @@ import { Button, Card, CardDeck, Container } from "react-bootstrap";
 
 const Team = () => {
   return (
-    <Container>
+    <Container className="my-5" id="team">
       <h1 className="text-center">Choose Your Dedicated Team</h1>
 
       <CardDeck>
@@ -42,7 +42,7 @@ const Team = () => {
                 <li>20 days Free Support</li>
                 <li>24/7 Support</li>
               </ul>
-              <Button>Order Now</Button>
+              <Button className="button-design-style">Order Now</Button>
             </Card.Text>
           </Card.Body>
         </Card>

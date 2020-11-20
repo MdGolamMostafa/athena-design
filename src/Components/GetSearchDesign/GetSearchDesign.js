@@ -7,12 +7,11 @@ const GetSearchDesign = () => {
       <h1>Get your design right, right now</h1>
       <p>be the first know our latest offers and updates!</p>
 
-      <div className="mx-auto">
+      <div className="mx-auto w-50">
         <InputGroup>
           <input
             placeholder="Enter your email address"
             className="form-control"
-            className="w-50"
           />
           <Button>Get Started</Button>
         </InputGroup>

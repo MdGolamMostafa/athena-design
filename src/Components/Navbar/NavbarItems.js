@@ -18,11 +18,11 @@ const NavbarItems = () => {
             <Nav.Link className="active" href="#">
               Home
             </Nav.Link>
-            <Nav.Link href="#">About</Nav.Link>
-            <Nav.Link href="#">Service</Nav.Link>
-            <Nav.Link href="#">Pricing</Nav.Link>
-            <Nav.Link href="#">Our Team</Nav.Link>
-            <Nav.Link className="button-design" href="#">
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#service">Service</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#team">Our Team</Nav.Link>
+            <Nav.Link className="button-design" href="#contact">
               Contact Us
             </Nav.Link>
           </Nav>

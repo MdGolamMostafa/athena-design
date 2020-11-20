@@ -4,7 +4,7 @@ import "../Home/Home.css";
 
 const Project = () => {
   return (
-    <Container className="my-5">
+    <Container className="my-5" id="service">
       <Row>
         <Col md={6} xs={12}>
           <Image
