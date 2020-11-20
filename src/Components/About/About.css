@@ -1,0 +1,9 @@
+.card {
+  border: none;
+}
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 40%;
+  margin: auto;
+}
