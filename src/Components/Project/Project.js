@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import "../Home/Home.css";
 
 const Project = () => {
   return (
@@ -11,7 +12,7 @@ const Project = () => {
             style={{ width: "100%" }}
           />
         </Col>
-        <Col md={6} xs={12} style={{ marginTop: "200px" }}>
+        <Col md={6} xs={12} style={{ marginTop: "150px" }}>
           <h1>Stay Running & Project</h1>
           <p>
             It is a long established fact that a reader will be distracted by
@@ -19,6 +20,9 @@ const Project = () => {
             of using Lorem Ipsum is that it has a more-or-less normal
             distribution of letter.
           </p>
+          <Button className="button-design-style color-dark md-=4">
+            See Pricing
+          </Button>
         </Col>
       </Row>
     </Container>

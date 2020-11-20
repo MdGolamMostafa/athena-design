@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../About/About";
+import Achievements from "../Achievements/Achievements";
 import Footer from "../Footer/Footer";
 import GetSearchDesign from "../GetSearchDesign/GetSearchDesign";
 import Home from "../Home/Home";
@@ -10,6 +11,7 @@ const AllPages = () => {
       <Home />
       <About />
       <Project />
+      <Achievements />
       <GetSearchDesign />
       <Footer />
     </div>
