@@ -22,18 +22,19 @@ const Team = () => {
                 <li>Free Stock Photos</li>
                 <li>10 days Free Support</li>
                 <li>24/7 Support</li>
+               
               </ul>
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className="text-center">
           <Card.Body>
             <Card.Title>
               <h3>$399</h3>
               <p>For Prefferred</p>
             </Card.Title>
             <Card.Text>
-              <ul>
+              <ul className="text-center">
                 <li>Home Page</li>
                 <li>4 Inner Pages</li>
                 <li>Asset file</li>
@@ -41,19 +42,22 @@ const Team = () => {
                 <li>Free Stock Photos</li>
                 <li>20 days Free Support</li>
                 <li>24/7 Support</li>
+                <li>
+                <Button className="button-design-style">Order Now</Button>
+                  </li>
               </ul>
-              <Button className="button-design-style">Order Now</Button>
+              
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className="text-center">
           <Card.Body>
             <Card.Title>
               <h3>$599</h3>
               <p>For Elite</p>
             </Card.Title>
             <Card.Text>
-              <ul>
+              <ul className="text-center">
                 <li>Home Page</li>
                 <li>8 Inner Page</li>
                 <li>Asset file</li>

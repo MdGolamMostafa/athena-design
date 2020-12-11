@@ -5,26 +5,27 @@
 } 
   
 input { 
-    margin: 5px; 
-    padding: 5px; 
+    /* margin: 5px; 
+    padding: 5px;  */
    
     /* width: 100%;  */
     outline: none; 
-    /* height: 330px;  */
+    height: 58px !important;
     border-radius: 5px; 
 } 
   
 button { 
     position: absolute; 
     /* top: 0;  */
-    /* border-radius: 5px;  */
-    right: 0px; 
+    border-radius: 5px; 
+    right: 11px; 
     z-index: 2; 
-    /* border: none;  */
-    top: 2px; 
+    border: none; 
+    top: 7px; 
     /* height: 30px;  */
     cursor: pointer; 
-    /* color: white;  */
+    color: white; 
+    background:linear-gradient(to right , rgb(147, 204, 231) , rgb(57, 10, 228))
     /* background-color: #1e90ff;  */
-    transform: translateX(2px); 
+    /* transform: translateX(2px);  */
 } 

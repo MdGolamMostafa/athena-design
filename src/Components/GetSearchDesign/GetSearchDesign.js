@@ -19,7 +19,7 @@ const GetSearchDesign = () => {
     //   </div>
     // </Container>
     <div className = "container">
-      <div className = "row">
+      <div className = "row d-flex justify-content-center">
         <div className = "text-center col-9 col-sm-9 col-md-9 col-lg-6 col-xs-6">
         <h2>Get your design right, right now</h2>
         <p>Be the first know our latest offers and updates!</p>
@@ -30,11 +30,11 @@ const GetSearchDesign = () => {
                 type="email"
                 style={{zIndex:-1}} 
                 placeholder="Enter your email address"
-                className="form-control  shadow d-inline"
+                className="form-control shadow "
                 
               /> 
               
-              <button className = "btn btn-primary ">Get Started</button>
+              <button className = " h-75 w-25  ">Get Started</button>
               
         </div>
 

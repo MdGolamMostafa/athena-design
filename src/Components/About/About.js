@@ -5,15 +5,15 @@ import "./About.css";
 const About = () => {
   return (
     <Container className="my-5" id="about">
-      <h1>What we do</h1>
-      <pc>
+      <h1 className ="text-center">What we do</h1>
+      <p className ="text-center col-4 text-dark">
         Our main focus is to make the User Experience very simple and easy.
         Simplicity is our Strength
-      </pc>
+      </p>
 
       <CardDeck className="mt-5">
-        <Card>
-          <Card.Img variant="top" src="/images/Group 65@2x.png" />
+        <Card >
+          <Card.Img className="mt-5" variant="top" src="/images/Group 65@2x.png" />
           <Card.Body>
             <Card.Title>Experience Design</Card.Title>
             <Card.Text>
@@ -23,7 +23,7 @@ const About = () => {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src="/images/Group 66@2x.png" />
+          <Card.Img className="mt-5" variant="top" src="/images/Group 66@2x.png" />
           <Card.Body>
             <Card.Title>Interface Design</Card.Title>
             <Card.Text>
@@ -33,7 +33,7 @@ const About = () => {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src="/images/Group 69@2x.png" />
+          <Card.Img className="mt-5" variant="top" src="/images/Group 69@2x.png" />
           <Card.Body>
             <Card.Title>Prototyping</Card.Title>
             <Card.Text>
@@ -43,7 +43,7 @@ const About = () => {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src="/images/Group 72@2x.png" />
+          <Card.Img className="mt-5"variant="top" src="/images/Group 72@2x.png" />
           <Card.Body>
             <Card.Title>Illustration</Card.Title>
             <Card.Text>

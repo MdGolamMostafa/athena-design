@@ -7,24 +7,26 @@ const Home = () => {
     <div className="home-background">
       <NavbarItems />
       <Container>
-        <Row className="align-items-center py-5">
-          <Col md={6}>
+        <Row >
+          <Col className="d-flex flex-column" md={6}>
             <h1 className="home-title-style">Florence agency</h1>
             <p
               style={{ fontSize: "16px", width: "70%" }}
-              className="home-detail-style mb-5"
+              className="home-detail-style mt-5 mb-5"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consectetur quae, nesciunt aperiam labore magnam corporis corrupti
               asperiores ipsa fugiat debitis magni ad.
             </p>
-            <Button className="button-design-style color-dark md-=4">
+            <Button
+            className="button-design-style  md-=4">
               See Pricing
             </Button>
+            
           </Col>
           <Col md={6}>
             <img
-              className="w-100 py-5"
+              className="w-100"
               src={"https://i.ibb.co/1zLz6VJ/16-Converted-2x.png"}
               alt="Home-description-img"
             />
