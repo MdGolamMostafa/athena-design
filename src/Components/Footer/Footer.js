@@ -1,75 +1,56 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <Container className="my-5">
-      <Row className="d-flex justify-content-center mt-4">
-        <Col xs={8} md={4}>
-          <img
-            style={{ width: "50%", height: "60%" }}
-            className="mb-4"
-            src={"https://i.ibb.co/f2Ksjpq/Group-86.png"}
-            alt=""
-          />
+    
+    <div className = "pt-3 mt-5">
+      <div >
+      <div className="row">
+        <div className = " ml-5 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div  className="mb-4 ml-5 pl-5 ">
+              <img
+                style={{ width: "140px", height: "95px" }}
+                src={"https://i.ibb.co/f2Ksjpq/Group-86.png"}
+                alt="Logo img"
+              />
+            </div>
 
-          <Row>
-            <Col>
-              <img
-                src={
-                  "https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"
-                }
-                alt=""
-              />
-            </Col>
-            <Col>
-              <img src={"https://i.ibb.co/QMy874b/linkedin-2-2x.png"} alt="" />
-            </Col>
-            <Col>
-              <img
-                src={
-                  "https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"
-                }
-                alt=""
-              />
-            </Col>
-            <Col>
-              <img src={"https://i.ibb.co/chjZL5J/twitter-4-2x.png"} alt="" />
-            </Col>
-            <Col>
-              <img src={"https://i.ibb.co/xqJzZhr/dribbble-1-2x.png"} alt="" />
-            </Col>
-          </Row>
-        </Col>
-        <Col xs={3} md={2}>
-          <Col>Features</Col>
-          <Col>Enterprise</Col>
-          <Col>Pricing</Col>
-        </Col>
-        <Col xs={3} md={2}>
-          <Col>Blog</Col>
-          <Col>Help Center</Col>
-          <Col>Contact Us</Col>
-          <Col>Status</Col>
-        </Col>
-        <Col xs={3} md={2}>
-          <Col>About Us</Col>
-          <Col>Terms of Service</Col>
-          <Col>Security</Col>
-          <Col>Login</Col>
-        </Col>
-      </Row>
-    </Container>
+          <div className="mb-4 ml-5 pl-5">
+              <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
+              <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
+              <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
+              <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
+              <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
+          </div>
+        </div>
+        
+        <div className="d-flex justify-content-center  mt-2 col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+          <ul>
+            <li>Features</li>
+            <li>Enterprise</li>
+            <li>Pricing</li>
+          </ul>
+        </div>
+        <div className="d-flex justify-content-center mt-2 col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+          <ul>
+            <li>Blog</li>
+            <li>Help Center</li>
+            <li>Contact Us</li>
+            <li>Status</li>
+          </ul>
+          </div>
+        <div className="d-flex justify-content-center ml-3 mt-2 col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+          <ul >
+            <li>About Us</li>
+            <li>Terms of Service</li>
+            <li>Security</li>
+            <li>Login</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
   );
 };
 
 export default Footer;
-
-// {
-//   /* <ul style={{listStyle:'none'}} className="row ">
-//                             <li className="ml-5 mr-5"><img src={'https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png'} alt=""/></li>
-//                             <li className="mr-5"><img src={"https://i.ibb.co/QMy874b/linkedin-2-2x.png"} alt=""/></li>
-//                             <li className="mr-5"><img src={"https://i.ibb.co/chjZL5J/twitter-4-2x.png"} alt=""/></li>
-//                             <li className="mr-2"><img src={"https://i.ibb.co/xqJzZhr/dribbble-1-2x.png"} alt=""/></li>
-//                         </ul> */
-// }
