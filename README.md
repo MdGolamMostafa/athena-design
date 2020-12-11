@@ -15,3 +15,5 @@
 4. Pricing
 5. Contact
 
+#### Git settings
+1. Fork Used
