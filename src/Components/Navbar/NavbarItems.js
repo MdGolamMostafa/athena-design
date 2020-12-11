@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./NavbarItems.css";
-const NavbarItems = () => {
+const NavbarItems = () => { //here
   return (
     <Container>
       <Navbar expand="lg" className="pt-4">
