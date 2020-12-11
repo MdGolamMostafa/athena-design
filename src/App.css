@@ -2,6 +2,13 @@
   text-align: center;
 } */
 
+h2{
+  font-family: 'Abril Fatface', cursive;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+}
+
 ul {
   list-style-type: none;
 }

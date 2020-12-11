@@ -6,7 +6,7 @@ const Team = () => {
     <Container className="my-5" id="team">
       <h1 className="text-center">Choose Your Dedicated Team</h1>
 
-      <CardDeck>
+      <CardDeck >
         <Card className="text-center">
           <Card.Body>
             <Card.Title>

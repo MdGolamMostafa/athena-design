@@ -7,7 +7,8 @@ const NavbarItems = () => { //here
       <Navbar expand="lg" className="pt-4">
         <Navbar.Brand>
           <img
-            style={{ width: "50%" }}
+            style={{ width: "50%"
+              }}
             src={"https://i.ibb.co/f2Ksjpq/Group-86.png"}
             alt="Logo"
           />
