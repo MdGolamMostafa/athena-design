@@ -1,5 +1,11 @@
+.card-interface{
+  border-color: aqua !important;
+  border-radius: 74px 0px !important;
+  box-shadow: 5px 5px 10px lightgray;
+}
 .card {
   border: none;
+  
 }
 .card-img,
 .card-img-bottom,
