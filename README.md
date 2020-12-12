@@ -1,6 +1,6 @@
 # Athena Design
 
-## Live Website https://mdgolammostafa.github.io/athena-design/)
+## Live Website https://mdgolammostafa.github.io/athena-design/
 
 #### Technology Used -
 
