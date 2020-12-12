@@ -8,7 +8,7 @@ const Project = () => {
           <Row>
               <Col md={6} xs={12}>
                   <Image
-                      src="/images/20 [Converted]@2x.png"
+                      src={'https://i.ibb.co/94rpfhS/20-Converted-2x.png'}
                       style={{ width: "100%", verticalAlign: "middle" }}
                   />
               </Col>

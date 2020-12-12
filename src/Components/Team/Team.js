@@ -7,7 +7,7 @@ const Team = () => {
         <h1 className="text-center">Choose Your Dedicated Team</h1>
 
             <CardDeck  className = "mt-5">
-                <Card className="text-center">
+                <Card className="text-center team-card">
                     <Card.Body>
                         <Card.Title>
                             <h1>$199</h1>
@@ -51,7 +51,7 @@ const Team = () => {
                     </Card.Body>
                 </Card>
 
-                <Card className="text-center">
+                <Card className="text-center team-card">
                     <Card.Body>
                         <Card.Title>
                             <h1>$599</h1>

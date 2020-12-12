@@ -1,6 +1,7 @@
 li{
     margin-bottom: 21px;
     color: rgb(24, 21, 21);
+
    
 }
 hr{
@@ -9,4 +10,7 @@ hr{
 }
 p.h6{
     color: rgb(236, 231, 231);
+}
+.team-card{
+    box-shadow: 0 0 8px #c4c1c1;;
 }

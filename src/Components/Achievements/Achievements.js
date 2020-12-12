@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import './Achievements.css';
+// import './Achievements.scss';
 const Achievements = () => {
     return (
         <Container className="my-5" id="pricing">
@@ -21,7 +22,7 @@ const Achievements = () => {
                                 <div className="mr-4">
                                     <Image
                                         style={{width: '50px', height: '50px'}}
-                                        src="/images/happy@2x.png" 
+                                        src={"https://i.ibb.co/pZmzQGt/happy-2x.png"}
                                     />
                                 </div>
                                 <div>
@@ -31,11 +32,11 @@ const Achievements = () => {
                             </Row>
                         </Col>
                         <Col >
-                            <Row className = "shadow ml-2 achievements-bottom d-flex align-items-center justify-content-center ">
+                            <Row className = "ml-2 achievements-bottom d-flex align-items-center justify-content-center ">
                                 <div className = "pr-2">
                                     <Image
                                         style={{width: '50px', height: '50px'}}
-                                        src="/images/marketing@2x.png" className="secondary" 
+                                        src={"https://i.ibb.co/kD6LTc0/marketing-2x.png"} className="secondary" 
                                     />
                                 </div>
                                 <div>
@@ -46,12 +47,12 @@ const Achievements = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col className = "shadow  achievements-bottom d-flex align-items-center justify-content-center ">
+                        <Col className = "  achievements-bottom d-flex align-items-center justify-content-center ">
                             <Row >
                                 <div className ="pr-2">
                                     <Image 
                                         style={{width: '50px', height: '50px'}}
-                                        src="/images/surface1@2x.png" 
+                                        src={"https://i.ibb.co/r5dpjw4/surface1-2x.png"}
                                         />
                                 </div>            
                                 <div>
@@ -61,12 +62,12 @@ const Achievements = () => {
                             </Row>
                         </Col>
 
-                        <Col  className=" shadow about-running ml-5">
+                        <Col  className="  about-running ml-5">
                             <Row className = " align-items-center justify-content-center ">
                                 <div className="mr-4">
                                     <Image
                                         style={{width: '50px', height: '50px'}}
-                                        src="/images/transportation@2x.png"
+                                        src={"https://i.ibb.co/D5CPLxB/transportation-2x.png"}
                                         className="secondary"
                                     />
                                 </div>

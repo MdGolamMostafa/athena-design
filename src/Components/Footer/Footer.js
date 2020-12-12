@@ -17,9 +17,9 @@ const Footer = () => {
 
                       <div className="mb-4 ml-5 pl-5">
                           <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
-                          <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
-                          <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
-                          <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
+                          <img className="mr-3" src={"https://i.ibb.co/QMy874b/linkedin-2-2x.png"} alt=""/>
+                          <img className="mr-3" src={"https://i.ibb.co/chjZL5J/twitter-4-2x.png"} alt=""/>
+                          <img className="mr-3" src={"https://i.ibb.co/xqJzZhr/dribbble-1-2x.png"} alt=""/>
                           <img className="mr-3" src={"https://i.ibb.co/CPbGLyb/facebook-logo-in-circular-shape-2x.png"} alt=""/>
                       </div>
                   </div>
