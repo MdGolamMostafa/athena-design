@@ -1,0 +1,18 @@
+.achievements-bottom{
+    border-radius: 54px 0px;
+    padding: 44px 44px;
+    /* margin: 44px 44px; */
+    /* width: 622px; */
+}
+.about-button{
+    background: linear-gradient(to right, #0decc7,#09a9e9);
+    border-radius: 0 54px;
+    padding: 44px 44px;
+    /* width: 622px; */
+}
+.about-running{
+    /* background: linear-gradient(to right, #0decc7,#09a9e9); */
+    border-radius: 0 54px;
+    padding: 44px 44px;
+    /* width: 622px; */
+}

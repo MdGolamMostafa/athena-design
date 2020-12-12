@@ -18,9 +18,8 @@ const Home = () => {
               Consectetur quae, nesciunt aperiam labore magnam corporis corrupti
               asperiores ipsa fugiat debitis magni ad.
             </p>
-            <Button
-            className="button-design-style  md-=4">
-              See Pricing
+            <Button className="button-design-style">
+                See Pricing
             </Button>
             
           </Col>

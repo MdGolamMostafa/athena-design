@@ -4,12 +4,12 @@ import "./About.css";
 
 const About = () => {
   return (
-    <Container className="my-5" id="about">
+    <Container className="text-center" id="about">
       <h1 className ="text-center">What we do</h1>
-      <p className ="text-center col-4 text-dark">
+      <h6 className ="text-center col-5 text-dark">
         Our main focus is to make the User Experience very simple and easy.
         Simplicity is our Strength
-      </p>
+      </h6>
 
       <CardDeck className="mt-5">
         <Card >
