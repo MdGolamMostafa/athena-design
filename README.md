@@ -1,6 +1,6 @@
 # Athena Design
 
-## Live Website (https://romantic-wright-d23723.netlify.app/)
+## Live Website https://mdgolammostafa.github.io/athena-design/)
 
 #### Technology Used -
 
