@@ -4,7 +4,7 @@ import AllPages from "./Components/AllPages/AllPages";
 function App() {
   return (
     <div className="App">
-      <AllPages />
+        <AllPages />
     </div>
   );
 }

@@ -8,15 +8,15 @@ import Project from "../Project/Project";
 import Team from "../Team/Team";
 const AllPages = () => {
   return (
-    <div>
-      <Home />
-      <About />
-      <Project />
-      <Achievements />
-      <Team />
-      <GetSearchDesign />
-      <Footer />
-    </div>
+      <div>
+          <Home />
+              <About />
+                  <Project />
+                      <Achievements />
+                          <Team />
+                              <GetSearchDesign />
+                                  <Footer />
+      </div>
   );
 };
 

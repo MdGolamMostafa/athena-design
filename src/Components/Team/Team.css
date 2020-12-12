@@ -1,7 +1,12 @@
 li{
     margin-bottom: 21px;
+    color: rgb(24, 21, 21);
+   
 }
 hr{
     width: 60%;
     background-color: rgb(28, 193, 243)
+}
+p.h6{
+    color: rgb(236, 231, 231);
 }

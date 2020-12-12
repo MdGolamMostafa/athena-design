@@ -22,7 +22,7 @@ const About = () => {
                             </Card.Text>
                     </Card.Body>
             </Card>
-            <Card  className="card-interface">
+            <Card  className="card-interface pb-4">
                 <Card.Img className="mt-5" variant="top" src="/images/Group 66@2x.png" />
                     <Card.Body >
                           <Card.Title>Interface Design</Card.Title>

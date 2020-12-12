@@ -7,12 +7,12 @@ const Achievements = () => {
             <Row className  = "align-items-center justify-content-center">
                 <Col className = "mr-5" sm={4} xl={4} md={6} xs={12}>
                     <h1>Our Achievements</h1>
-                        <p>
+                        <h6>
                             It is a long established fact that a reader will be distratced by
                             the readable content of a page when looking at its layout. The point
                             of using Lorem Ipsum is that it has a more-or-less normal
                             distribution of letter.
-                        </p>
+                        </h6>
                 </Col>
                 <Col sm={12} xl={7} md={12} xs={12}>
                     <Row >
