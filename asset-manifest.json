@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/athena-design/static/css/main.b9ac47f7.chunk.css",
+    "main.js": "/athena-design/static/js/main.aff6a3b3.chunk.js",
+    "main.js.map": "/athena-design/static/js/main.aff6a3b3.chunk.js.map",
+    "runtime-main.js": "/athena-design/static/js/runtime-main.d0d8910d.js",
+    "runtime-main.js.map": "/athena-design/static/js/runtime-main.d0d8910d.js.map",
+    "static/js/2.667fc7e1.chunk.js": "/athena-design/static/js/2.667fc7e1.chunk.js",
+    "static/js/2.667fc7e1.chunk.js.map": "/athena-design/static/js/2.667fc7e1.chunk.js.map",
+    "static/js/3.3f6c3033.chunk.js": "/athena-design/static/js/3.3f6c3033.chunk.js",
+    "static/js/3.3f6c3033.chunk.js.map": "/athena-design/static/js/3.3f6c3033.chunk.js.map",
+    "index.html": "/athena-design/index.html",
+    "static/css/main.b9ac47f7.chunk.css.map": "/athena-design/static/css/main.b9ac47f7.chunk.css.map",
+    "static/js/2.667fc7e1.chunk.js.LICENSE.txt": "/athena-design/static/js/2.667fc7e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0d8910d.js",
+    "static/js/2.667fc7e1.chunk.js",
+    "static/css/main.b9ac47f7.chunk.css",
+    "static/js/main.aff6a3b3.chunk.js"
+  ]
+}
